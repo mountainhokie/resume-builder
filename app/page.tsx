@@ -6,12 +6,12 @@ export default function Home() {
     <>
       <main className="flex align-center justify-center h-screen flex-col">
         <section className="grid grid-cols-2 gap-4 max-w-sm mx-auto">
-          <a
+          <Link
             className="flex justify-center rounded-sm bg-indigo-600 px-8 py-3 text-sm font-medium text-white transition hover:scale-110 hover:shadow-xl"
-            href="#"
+            href="/profile"
           >
-            Updated Profile
-          </a>
+            Profile
+          </Link>
 
           <Link
             className="flex justify-center rounded-sm border border-current px-8 py-3 text-sm font-medium text-indigo-600 transition hover:scale-110 hover:shadow-xl"
